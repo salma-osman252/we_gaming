@@ -149,9 +149,11 @@ h1 {
   width: 100%;
   height: 35vh;
   background-color: #000;
-  padding-right: 250px;
+  /* kuso dare */
+  /* padding-right: 250px;
   padding-top: 50px;
-  padding-left: 300px;
+  padding-left: 300px; */
+  padding: 60px 80px 80px 120px;
 }
 
 .star_container {
@@ -374,6 +376,9 @@ small,
 
 .taxt_box {
   margin-left: 350px;
+
+  /* kuso dare */
+  width: 350px;
 }
 .taxt_box p {
   color: black;
@@ -388,6 +393,8 @@ small,
 .social_media {
   display: flex;
   gap: 10px;
+  /* kuso dare */
+  width: 350px;
 }
 
 /* section 7 ends here */
@@ -497,6 +504,8 @@ h3 {
 
   .social_container {
     justify-content: center;
+    /* kuso dare */
+    flex-wrap: wrap;
   }
   .section4 {
     height: 65vh;
@@ -513,9 +522,11 @@ h3 {
   }
 
   .section3 {
-    min-height: 250vh;
+    /* min-height: 250vh; */
+    min-height: 100vh;
   }
 }
+
 
 @media screen and (max-width: 1451px) {
   .section2 {
@@ -539,7 +550,7 @@ h3 {
   }
 
   .section_6 {
-    height: 110vh;
+    height: 100vh;
   }
 }
 
@@ -551,7 +562,7 @@ h3 {
   }
 
   .section_6 {
-    height: 170vh;
+    height: 120vh;
   }
   .review {
     justify-content: space-evenly;
@@ -577,13 +588,17 @@ h3 {
   }
 
   .section_6 {
-    height: 230vh;
+    /* kuso dare */
+    /* height: 230vh; */
+    height: 150vh;
   }
 }
 
 @media screen and (max-width: 933px) {
   .section4 {
-    height: 110vh;
+    /* kuso dare */
+    /* height: 110vh; */
+    height: 65vh;
   }
 }
 @media screen and (max-width: 775px) {
@@ -593,19 +608,29 @@ h3 {
 }
 @media screen and (max-width: 685px) {
   .section5 {
-    height: 145vh;
+    /* kuso dare */
+    /* height: 145vh; */
+    height: 100vh;
+    
   }
 }
 
 @media screen and (max-width: 495px) {
   .section5 {
-    height: 175vh;
+  /* kuso dare */
+    /* height: 175vh; */
+    height: 120vh;
+ 
   }
 }
 
 @media screen and (max-width: 600px) {
   .see_all {
     display: none;
+  }
+  /* kuso dare */
+  hr{
+    width: 70%;
   }
 }
 
